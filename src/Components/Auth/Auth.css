@@ -1,0 +1,29 @@
+.input-style {
+  width: 100%;
+  padding: 10px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #828282;
+  box-sizing: border-box;
+  /* border-radius: 5px; */
+  font-size: 15px;
+  line-height: 24px;
+  color: var(--dark-color);
+  box-shadow: none;
+  margin-bottom: 1.5rem !important;
+}
+.input-lg {
+  height: 45px;
+}
+.input-sm {
+  height: 35px;
+}
+.input-style:hover,
+.input-style:focus {
+  border: 1px solid var(--pry-color) !important;
+}
+
+.auth .or {
+  position: relative;
+  top: -1.8rem;
+}
